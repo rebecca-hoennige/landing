@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100&display=swap")
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px; 
+	margin: 0px;
+}
+h1, h2, h3 {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+
+.card-white{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 6px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
